@@ -1,0 +1,75 @@
+<section class="content">
+  <div class="container">
+    <div class="row justify-content-center">
+     <div class="header-content-text">
+      <h2>Why Is It Special</h2>
+      <hr class="content-line" />
+     </div>
+    </div>
+    <div class="row mt-5">
+     <div class="col-md-4">
+      <div class="content-box" [@fadeInUp]="fadeInUp">
+       <div class="singel-icon">
+        <fa-icon [icon]="faMobile"></fa-icon>
+       </div>
+       <h2 class="content-box-text">Easy to use</h2>
+       <p class="content-box-p">We build pretty complex tools and this allows us to take designs and turn them into
+        functional quickly and easily</p>
+      </div>
+     </div>
+     <div class="col-md-4">
+      <div class="content-box" [@fadeInUp]="fadeInUp">
+       <div class="singel-icon">
+        <fa-icon [icon]="faPencilRuler"></fa-icon>
+       </div>
+       <h2 class="content-box-text">Powerful Design</h2>
+       <p class="content-box-p">We build pretty complex tools and this allows us to take designs and turn them into
+        functional quickly and easily</p>
+      </div>
+     </div>
+     <div class="col-md-4">
+      <div class="content-box" [@fadeInUp]="fadeInUp">
+       <div class="singel-icon">
+        <fa-icon [icon]="faSpinner"></fa-icon>
+       </div>
+       <h2 class="content-box-text">Customizability</h2>
+       <p class="content-box-p">We build pretty complex tools and this allows us to take designs and turn them into
+        functional quickly and easily</p>
+      </div>
+     </div>
+   
+    </div>
+    <div class="row" [ngStyle]="{'margin-top':'10%'}">
+     <div class="col-md-6 second-content-img">
+      <img src="../../assets/img/bg-img/special.png" alt="">
+     </div>
+     <div class="col-md-6 second-content ml-xl-auto">
+      <div>
+       <h2 class="second-content-h2">Our Best Propositions for You!</h2>
+       <p class="second-content-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut
+        labore et dolore magna aliqua.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore et dolore magna aliqua.
+        Ut
+        enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+       <div class="app-download-area d-flex" >
+        <div class="app-download-area-details" [@fadeInDown]="fadeInDown">
+         <a class="second-content-a d-flex">
+          <fa-icon [icon]="faAndroid" [ngStyle]="{'margin-left':'10%','font-size':'28px'}"></fa-icon>
+          <p class="mb-0">available on<span> Google Store</span></p>
+         </a>
+        </div>
+        <div class="app-download-area-details" [@fadeInUp]="fadeInUp">
+         <a class="second-content-a d-flex">
+          <fa-icon [icon]="faApple" [ngStyle]="{'margin-left':'10%','font-size':'28px'}"></fa-icon>
+          <p class="mb-0">available on<span> Apple Store</span></p>
+         </a>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+   <button *ngIf="isShow" (click)="gotoTop()">
+     <fa-icon [icon]="faAngleUp" class="fa-icon"></fa-icon>
+    </button>
+</section>

@@ -1,0 +1,86 @@
+.page-footer{
+ padding-top: 70px;
+ padding-bottom: 10px;
+ z-index: -1;
+position: fixed;
+bottom: 0px;
+width: 1519px;
+}
+.navbar-brand{
+  color: #5b32b4;
+  font-size: 72px;
+}
+
+.footer-social-icon {
+ cursor: pointer;
+ margin-bottom: 20px;
+ 
+}
+
+
+.footer-social-icon fa-icon {
+ padding: 1%;
+ font-size: 18px;
+ border-radius: 10px 10px 10px 0;
+ color: white;
+ background: #9a81d7;
+ height: 40px;
+ width: 40px;
+ text-align: center;
+ margin: 2.5px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ opacity: .8;
+
+}
+.footer-social-icon :hover{
+
+ }
+.footer-social-icon fa-icon:hover {
+ color: white;
+ background: #fb397d;
+ transition: 1s ease;
+ opacity: 1;
+}
+.footer-menu >nav> ul> li >a{
+  display: block;
+  padding: 0 7.5px;
+  color: #726a84;
+  border-right: 2px solid #726a84;
+ text-decoration: none;
+}
+.footer-menu >nav> ul> li >a:hover{
+  color: #9a81d7;;
+}
+
+.footer-menu >nav> ul> li:last-child > a{
+  border-right: 0px solid #726a84;
+}
+.footer-copyright{
+  color: #726a84;
+}
+
+
+
+
+
+@media screen and (max-width: 600px) {
+  .page-footer{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    width: 100%;
+   }
+   .footer-menu >nav> ul> li >a{
+    padding: 0 4px;
+   }
+ 
+ }
+ @media screen and (max-width: 1500px) {
+  .page-footer{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    width: 100%;
+   }
+ 
+ }

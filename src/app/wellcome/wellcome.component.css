@@ -1,0 +1,103 @@
+
+@import '~animate.css/animate.min.css';
+.Header{
+ background-image: url('../../assets/img/bg-img/welcome-bg.png');
+ height: 900px;
+ background-size: cover;
+ background-repeat: no-repeat;
+ position: relative;
+ margin-top: 5%;
+}
+
+.wellcome-heading{
+ margin-bottom: 5%;
+}
+
+.wellcome-heading h2{
+ color: #fff;
+ font-size: 100px;
+ font-weight: 700;
+ position: relative;
+ z-index: 3;
+ margin-top: 10%;
+}
+
+.wellcome-heading h3{
+ color: #fff;
+font-size: 310px;
+font-weight: 700;
+position: absolute;
+z-index: 3;
+margin-top: -33%;
+opacity: 0.1;
+margin-left: -3%;
+}
+
+.wellcome-heading p{
+ color: #fff;
+font-size: 16px;
+font-weight: 500;
+margin-top: 0;
+}
+.wellcome-text{
+ margin-top: 15%;
+}
+
+.submit{
+ border-radius: 24px 24px 24px 0px;
+ color: #fff;
+ border: 2px solid #a883e9;
+ font-weight: 500;
+ padding: 10px 30px;
+ text-align: center;
+ background-color: #fb397d;
+ margin-left: 1%;
+}
+
+.email{
+ background-color:#a883e9;
+ color: #fff;
+ border-radius: 24px;
+ padding:11px 30px;
+ border: none;
+ cursor: pointer;
+}
+.wellcome-mobile{
+ width: 45%;
+ position: absolute;
+ bottom: -130px;
+ right: 85px;
+ z-index: 9;
+ 
+ 
+}
+
+.wellcome-mobile img{
+ width: 100%;
+
+}
+
+@media screen and (max-width: 600px) {
+ .wellcome-heading h2 {
+   font-size: 40px;
+ }
+ .wellcome-heading h3{
+  margin-top: -48%;
+ }
+ .wellcome-heading{
+  margin-top: 40%;
+ }
+ .email{
+  width:70%;
+  margin-bottom: 3%;
+ }
+ .wellcome-mobile{
+  bottom: -100px;
+  right: 32px;
+  width: 75%;
+ }
+ .Header{
+   height: 700px;
+ }
+}
+

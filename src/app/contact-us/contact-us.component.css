@@ -1,0 +1,121 @@
+.section {
+ background: #f5f9fc;
+ box-shadow: rgba(0, 0, 0, 0.3) 0px 20px 30px -20px;
+ margin-bottom: 374px;
+ padding-top: 5%;
+ padding-bottom: 6%;
+}
+
+.header-content-text {
+ margin-top: 7%;
+ text-align: center;
+}
+
+.header-content-text>h2 {
+ text-align: left;
+ font-size: 48px;
+ color: #5b32b4;
+ font-weight: 300;
+}
+
+.content-line {
+ width: 80px;
+ border-top: 2px solid #fb397d;
+ margin-left: 0;
+
+}
+
+.row-text-p>p {
+ font-size: 16px;
+ color: #726a84;
+ font-weight: 300;
+ margin-top: 0;
+
+}
+
+.Address-text>p,
+.Phone-text>p,
+.Email-text>p {
+ font-size: 16px;
+ color: #726a84;
+ font-weight: 300;
+ margin-top: 0;
+}
+
+.Address-text>p>span,
+.Phone-text>p>span,
+.Email-text>p>span {
+ color: #5b32b4;
+}
+
+#exampleInputName,
+#exampleInputEmail1 {
+ font-size: 16px;
+ padding: 15px 15px;
+ border-radius: 25px 25px 25px 0;
+}
+
+#exampleInputMessage {
+ border-radius: 25px 25px 25px 0;
+}
+
+.submit {
+ border-radius: 22px 25px 22px 0;
+ ;
+ color: #fff;
+ font-weight: 500;
+ padding: 12px 45px;
+ text-align: center;
+ background-color: #fb397d;
+ margin-left: 1%;
+ border: 2px solid #fb397d;
+ cursor: pointer;
+}
+
+.submit:hover {
+ background: #5b32b4;
+ border: 2px solid #5b32b4;
+ color: #fff;
+}
+
+@media screen and (max-width: 600px) {
+ .header-content-text>h2 {
+  font-size: 28px;
+
+ }
+ .content-line {
+  margin-left: 30%;
+ }
+ .row-first {
+  justify-content: center;
+ }
+ .row-text-p>p  {
+ font-size: 14px;
+ margin-left: 10px;
+}
+.Address-text,
+.Phone-text,
+.Email-text {
+ margin-left: 10px;
+}
+.Address-text>p,
+.Phone-text>p,
+.Email-text>p {
+ font-size: 14px;
+
+}
+#exampleInputName,
+#exampleInputEmail1 {
+ font-size: 14px;
+ padding: 8px 8px;
+}
+textarea{
+ height: 75px;
+}
+.submit{
+ padding: 5px 15px;
+}
+
+
+
+}

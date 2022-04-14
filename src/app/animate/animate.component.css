@@ -1,0 +1,49 @@
+.container > .animated-digit {
+ display: inline-flex;
+ height: 135px;
+ width: 60px;
+ color: white;
+ text-align: center;
+ justify-content:center;
+ align-items: center;
+ font-size:50px;
+}
+.container >.animated-digit2,.animated-digit3 ,.animated-digit4{
+ display: inline-flex;
+ height: 135px;
+ width: 60px;
+ color: white;
+ text-align: center;
+ 
+ justify-content:center;
+ align-items: center;
+ font-size:50px;
+
+}
+@media screen and (max-width: 600px) {
+ .container >.animated-digit,.animated-digit3 ,.animated-digit4{
+  font-size:30px;
+  height: 95px;
+  width: 37px;  
+ }
+ .animated-digit2{
+  font-size:30px;
+  height: 75px;
+  width: 82px;
+ 
+ }
+}
+@media screen and (max-width: 1200px) {
+ .container > .animated-digit{
+  width: 48px !important;
+ }
+
+}
+@media screen and (max-width: 1000px) {
+ .container >.animated-digit,.animated-digit3 ,.animated-digit4{
+  font-size:25px;
+ }
+ .animated-digit2{
+  font-size:25px;
+ }
+}

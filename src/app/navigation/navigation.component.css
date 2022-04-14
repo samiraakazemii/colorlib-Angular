@@ -1,0 +1,75 @@
+.Header_area {
+ background-image: url('../../assets/img/bg-img/welcome-bg.png');
+
+}
+
+.nav-link {
+ color: #fff !important;
+}
+
+.navbar-toggler-icon {
+ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar-brand {
+ color: #fff;
+ font-weight: bold;
+ font-size: 40px;
+}
+
+.sing-up-button a {
+ border-radius: 24px 24px 24px 0px;
+ color: #fff;
+ border: 2px solid #a883e9;
+ font-weight: 500;
+ width: 70%;
+ min-height: 45px;
+ text-align: center;
+}
+
+.sing-up-button a:hover {
+ background-color: #fb397d;
+ color: #fff;
+ border-color: transparent;
+}
+
+a.Active {
+ color: #fb397d !important;
+ font-weight: bold;
+}
+
+@media screen and (max-width: 600px) {
+ .navbar-brand {
+  font-size: 48px;
+ }
+ .nav-link{
+  font-size: 15px;
+  margin-bottom: 1px;
+ }
+ .sing-up-button{
+  padding-top: 7%;
+  padding-bottom: 7%;
+ }
+ .sing-up-button a{
+  padding: 10px 10px;
+  text-decoration: none;
+ }
+ 
+}
+@media screen and (max-width: 1200px) {
+ .btn{
+  font-size: 15px;
+  min-height: 37px !important;
+ }
+
+}
+@media screen and (max-width: 1000px) {
+ .sing-up-button >a{
+  padding: 10px 10px;
+ }
+ .sing-up-button{
+  padding-bottom: 10px;
+  padding-top: 10px;
+ }
+
+}
